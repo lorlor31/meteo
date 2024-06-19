@@ -47,6 +47,8 @@ export function getLocation() {
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(resolve, reject);
     } else {
+      latitude = 26.9156835;
+      longitude = -101.4290085;
       reject("Geolocation is not supported by this browser.");
     }
   });
