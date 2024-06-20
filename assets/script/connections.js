@@ -6,10 +6,10 @@ export const url_data_weather =
 
   // OpenWeather API - données météorologiques sur 5jours pour une ville donnée
 export const url_data_forecast =
-  "http://api.openweathermap.org/data/2.5/forecast";
+  "https://api.openweathermap.org/data/2.5/forecast";
 
 // OpenWeather API - icônes météo
-export const url_icon = "http://openweathermap.org/img/w/";
+export const url_icon = "https://openweathermap.org/img/w/";
 
 // OpenWeather API - clé API
 export const appid = "624040e248adb120cc2d8b84598e8cd1";
