@@ -15,7 +15,7 @@ export async function meteoData(p1,p2) {
   const response = await fetch(p1);
   const data = await response.json();
   const iconAdd = data.weather[0].icon;
-  card.style.backgroundImage = `url(../assets/media/img/${p2}/${iconAdd}.png)`;
+  card.style.backgroundImage = `url(../media/img/${p2}/${iconAdd}.png)`;
   // card.style.backgroundImage = `url(./assets/media/img/${p2}/${iconAdd}.png)`;
   cityName.innerText = data.name;
   weather.innerText = data.weather[0].description;
